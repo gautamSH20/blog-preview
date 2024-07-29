@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6d050;
+  height: auto;
+  width: auto;
+}
+
+.cont {
+  display: flex;
+  margin-top: 100px;
+  height: 340px;
+  width: 350px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+@media (max-width: 375px) {
+  body {
+    flex-wrap: wrap;
+    width: 374px;
+    justify-content: center;
+    align-items: center;
+  }
+  .cont {
+    height: 400px;
+    width: 300px;
+    margin-right: 20px;
+  }
+}
