@@ -7,6 +7,15 @@ body {
   height: 100vh;
   width: auto;
 }
+.cont {
+  margin: 350px;
+  height: 410px;
+  width: 320px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px;
+}
 p {
   font-size: 13px;
   margin: 0 0 0 20px;
@@ -21,15 +30,6 @@ h3 {
   font-style: bold;
 }
 
-.cont {
-  margin: 350px;
-  height: 410px;
-  width: 320px;
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 10px;
-  box-shadow: 10px 10px;
-}
 .h-1 {
   display: inline-block;
   margin-left: 20px;
