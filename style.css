@@ -7,6 +7,7 @@ body {
   height: 100vh;
   width: auto;
 }
+/* this cont is the main container of the code */
 .cont {
   margin: 350px;
   height: 410px;
@@ -16,6 +17,7 @@ body {
   border-radius: 10px;
   box-shadow: 10px 10px;
 }
+/* Stle or Changes to paragraphs is done here */
 p {
   font-size: 13px;
   margin: 0 0 0 20px;
@@ -25,6 +27,7 @@ p {
   font-weight: 300;
   margin: 0 13px 0 20px;
 }
+/* Heading styles */
 h3 {
   margin: 10px 0 10px 20px;
   font-style: bold;
@@ -36,6 +39,7 @@ h3 {
   margin-bottom: 8px;
   background-color: #f3c42d;
 }
+/* Images style */
 .img1 {
   height: 190px;
   width: 295px;
@@ -52,7 +56,7 @@ h3 {
   object-fit: cover;
   float: left;
 }
-
+/* Mobile view */
 @media (max-width: 375px) {
   body {
     width: 374px;
