@@ -14,16 +14,17 @@ p {
 .p1 {
   font-size: 13px;
   font-weight: 300;
-  margin: 0 0 0 20px;
+  margin: 0 13px 0 20px;
 }
 h3 {
   margin: 10px 0 10px 20px;
+  font-style: bold;
 }
 
 .cont {
   margin: 350px;
   height: 410px;
-  width: 300px;
+  width: 320px;
   background-color: white;
   border: 1px solid black;
   border-radius: 10px;
@@ -36,8 +37,8 @@ h3 {
   background-color: #f3c42d;
 }
 .img1 {
-  height: 180px;
-  width: 270px;
+  height: 190px;
+  width: 295px;
   margin: 13px 13px 0 13px;
   border-radius: 10px;
   object-fit: cover;
@@ -45,15 +46,15 @@ h3 {
 .img2 {
   margin-left: 20px;
   margin-right: 8px;
-  height: 30px;
-  width: 34px;
+  margin-top: 8px;
+  height: 20px;
+  width: 19px;
   object-fit: cover;
   float: left;
 }
 
 @media (max-width: 375px) {
   body {
-    flex-wrap: wrap;
     width: 374px;
     justify-content: center;
     align-items: center;
