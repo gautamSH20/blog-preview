@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #f6d050;
-  height: auto;
+  height: 100vh;
   width: auto;
 }
 p {
@@ -21,7 +21,7 @@ h3 {
 }
 
 .cont {
-  margin-top: 90px;
+  margin: 350px;
   height: 410px;
   width: 300px;
   background-color: white;
