@@ -10,8 +10,8 @@ body {
 /* this cont is the main container of the code */
 .cont {
   margin: 350px;
-  height: 410px;
-  width: 320px;
+  height: 450px;
+  width: 340px;
   background-color: white;
   border: 1px solid black;
   border-radius: 10px;
@@ -19,11 +19,11 @@ body {
 }
 /* Stle or Changes to paragraphs is done here */
 p {
-  font-size: 13px;
+  font-size: 15px;
   margin: 0 0 0 20px;
 }
 .p1 {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 300;
   margin: 0 13px 0 20px;
 }
@@ -42,7 +42,7 @@ h3 {
 /* Images style */
 .img1 {
   height: 190px;
-  width: 295px;
+  width: 310px;
   margin: 13px 13px 0 13px;
   border-radius: 10px;
   object-fit: cover;
